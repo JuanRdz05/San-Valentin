@@ -1,0 +1,48 @@
+body {
+    background-color: #ffcccb; /* Fondo pastel rosa */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #d32f2f; /* Color rojo oscuro */
+    font-size: 40px;
+}
+
+p {
+    color: #d32f2f; /* Color rojo oscuro */
+    font-size: 20px;
+}
+
+.gif {
+    width: 150px; /* Ajusta el tamaño del GIF */
+    margin-bottom: 20px; /* Espacio entre el GIF y el título */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#siBtn {
+    background-color: #4caf50; /* Verde */
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336; /* Rojo */
+    color: white;
+}
